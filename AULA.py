@@ -5,6 +5,6 @@ ano = int(input('Em que ano estamos?'))
 anosub = ano - anodenascimento
 print('parabéns acesso concedido!')
 print('Bom trabalho e bom dia!')
-if anodenascimento < 2008:
+if anodenascimento > 2008:
     print('você é menor de idade acesso bloqueado!')
 
